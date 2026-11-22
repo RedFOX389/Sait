@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RedWeb — RedFox</title><link rel="icon" href="Lisa/LICAPNG.png"><link rel="stylesheet" href="Moisait.CSS">
+
+<style id="redweb-extra-themes">
+body[data-theme="crimson"]{--page:linear-gradient(135deg,#210710,#4b1025,#17060d);--ink:#fff0f3;--glass:#3a1022dc;--accent:#ff3158;--accent2:#a6002d;--line:#ff4b6e55}
+body[data-theme="cyber"]{--page:linear-gradient(135deg,#080817,#19123c,#071b28);--ink:#f4f1ff;--glass:#120f30dc;--accent:#00eaff;--accent2:#b000ff;--line:#00f0ff55}
+body[data-theme="sakura"]{--page:linear-gradient(135deg,#1b0d17,#49233c,#24101e);--ink:#fff2f8;--glass:#39192edc;--accent:#ff83bd;--accent2:#d94f91;--line:#ff83bd55}
+body[data-theme="midnight"]{--page:linear-gradient(135deg,#080d19,#17233e,#0a1024);--ink:#edf2ff;--glass:#121c34dc;--accent:#829cff;--accent2:#455fc4;--line:#829cff55}
+body[data-theme="gold"]{--page:linear-gradient(135deg,#171106,#493510,#201605);--ink:#fff8e6;--glass:#31240ddc;--accent:#f5c451;--accent2:#b77b18;--line:#f5c45155}
+body[data-theme="mint"]{--page:linear-gradient(135deg,#071713,#123b31,#09251e);--ink:#edfff8;--glass:#0d2f27dc;--accent:#5de0b2;--accent2:#168d78;--line:#5de0b255}
+body[data-theme="ice"]{--page:linear-gradient(135deg,#071521,#12364b,#0a2535);--ink:#effaff;--glass:#0e2b3cdc;--accent:#75d9ff;--accent2:#368bbd;--line:#75d9ff55}
+</style>
+
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#top"><img src="Lisa/LICAPNG2.png" alt="Лиса"><span>RedWeb</span></a>
+  <nav class="main-nav" aria-label="Главная навигация">
+    <a class="nav-link" href="#top">Главная</a>
+    <a class="nav-link" href="#cats">🐾 Котики</a>
+    <a class="nav-link" href="#creative">🎧 Моё творчество</a>
+    <button class="nav-link" id="videosNav" type="button">🎬 Видео</button>
+    <button class="nav-link settings-trigger" id="settingsOpen" type="button">⚙ Настройки</button>
+  </nav>
+  <div class="auth-area"><span id="userInfo">Гость</span><a class="mini-btn" id="loginTop" href="VHOD.HTML">Войти</a><a class="mini-btn primary" id="registerTop" href="MoiSait2.HTML">Регистрация</a><button class="mini-btn hidden" id="logoutBtn">Выйти</button></div>
+</header>
+
+<main id="top">
+<section class="hero wrap">
+  <div class="hero-copy"><span class="eyebrow">Добро пожаловать на мой сайт</span><h1>Привет! Я <span>RedFox</span> 🦊</h1>
+  <p>Это мой уголок в интернете: творчество, музыка, видео и, конечно, котики.</p>
+  <div class="hero-actions"><a class="button primary" href="#creative">Моё творчество</a><a class="button ghost" href="#cats">К сборнику котиков</a></div></div>
+  <div class="im-art"><img width="400"height="500"src="IA/IA5.png" alt="Лиса RedFox"></div>
+</section>
+
+<section class="wrap section" id="about"><div class="section-heading"><span class="eyebrow">Немного обо мне</span><h2>Это RedFox!</h2></div>
+<div class="about-grid">
+  <article class="glass about-card"><div class="emoji">👋</div><h3>Привет!</h3><p>Рад видеть тебя на моём сайте.</p></article>
+  <article class="glass about-card"><div class="emoji">🎲</div><h3>Мои интересы</h3><p>Люблю настольные игры и программирование.</p></article>
+  <article class="glass about-card"><div class="emoji">🐱</div><h3>Люблю животных</h3><p>Котики, собаки и много других пушистых друзей!</p></article>
+</div></section>
+
+<section class="wrap section" id="creative"><div class="section-heading"><span class="eyebrow">Звуки моего мира</span><h2>🎧 Моё творчество</h2><p>Здесь можно послушать мои треки и найти меня в соцсетях.</p></div>
+<div class="creative-grid">
+  <article class="glass music-card"><div class="music-head"><span class="music-icon">♫</span><div><h3>Моя музыка</h3><p>Авторские треки RedFox</p></div></div>
+    <audio id="myAudio" controls preload="metadata"><source src="music/my-track.mp3" type="audio/mpeg">Твой браузер не поддерживает аудиоплеер.</audio>
+    <a class="text-link" href="https://music.yandex.ru/album/38616376/track/143929914" target="_blank" rel="noopener">Открыть трек в Яндекс Музыке ↗</a>
+  </article>
+  <article class="glass socials-card"><h3>Мои площадки</h3><p>Ссылки на мои страницы — добавлю сюда.</p><p>пока только Youtube</p>
+    <div class="social-links"><a class="social-btn" href="https://www.youtube.com/@user-gingercat" data-social="youtube">▶ YouTube</a></div>
+  </article>
+</div></section>
+
+<section class="wrap section" id="cats"><div class="section-heading"><span class="eyebrow">Пушистая коллекция</span><h2>🐾 Сборник котиков</h2></div>
+<div class="cat-grid">
+  <figure><img src="CatNaSait/Cat3.gif" alt="Котик 1"><figcaption>Мой любимчик)</figcaption></figure>
+  <figure><img src="CatNaSait/Cat10.jpeg" alt="Котик 2"><figcaption>Любитель позировать на камеру</figcaption></figure>
+  <figure><img src="CatNaSait/Cat2.jpg" alt="Котик 3"><figcaption>Удивлёный</figcaption></figure>
+  <figure><img src="CatNaSait/Cat12.jpeg" alt="Котик 4"><figcaption>Немного пошалил</figcaption></figure>
+  <figure><img src="CatNaSait/Cat16.jpeg" alt="Котик 5"><figcaption>Любимая котость</figcaption></figure>
+  <figure><img src="CatNaSait/Cat18.jpeg" alt="Котик 6"><figcaption>Растроился</figcaption></figure>
+</div></section>
+
+<section class="wrap section hidden" id="videos"><div class="section-heading"><span class="eyebrow">Только для участников</span><h2>🎬 Видео</h2><p>Здесь будут мои видео. Добавь YouTube-ссылки в блок video-grid.</p></div>
+<div class="video-grid"><article class="glass video-placeholder"><div class="play">▶</div><h3>Моё первое видео</h3><p>Вставь сюда ссылку на своё видео YouTube.</p></article></div></section>
+<footer class="footer"><span>🦊 RedFox · RedWeb</span><a href="#top">Наверх ↑</a></footer>
+</main>
+
+<div class="modal hidden" id="settingsModal" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+ <div class="settings-panel"><button class="close" id="settingsClose" aria-label="Закрыть">×</button><span class="eyebrow">Персонализация</span><h2 id="settingsTitle">⚙ Настройки сайта</h2>
+  <section class="setting-group"><h3>🎨 Внешний вид</h3><label>Цвет страницы<select id="pageTheme"><option value="sunset">Тёплый закат</option>
+<option value="lavender">Лавандовый</option>
+<option value="ocean">Океан</option>
+<option value="forest">Лесной</option>
+<option value="dark">Тёмный</option>
+<option value="crimson">Рубиновый</option>
+<option value="cyber">Киберпанк</option>
+<option value="sakura">Сакура</option>
+<option value="midnight">Полночь</option>
+<option value="gold">Золотой</option>
+<option value="mint">Мятный</option>
+<option value="ice">Ледяной</option></select></label>
+  <label>Размытие верхней панели: <b id="blurNumber">12</b> px<input id="blurRange" type="range" min="0" max="24" value="12"></label></section>
+  <section class="setting-group locked-wrap"><h3>🔒 Настройки аккаунта</h3><div class="locked-content" id="lockedAccount"><div class="lock-icon">🔒</div><p>Что-бы открыть этот раздел зарегистрируйтесь!</p><div class="inline-actions"><a class="button primary" href="MoiSait2.HTML">Регистрация</a><a class="button ghost" href="VHOD.HTML">Вход</a></div></div>
+   <div id="accountSettings" class="hidden"><div class="profile-row"><img id="avatarPreview" alt="Аватар"><div><b id="profileLabel">Мой профиль</b><p class="hint">Настройки твоего аккаунта</p></div></div>
+    <label>Никнейм<input id="nickname" maxlength="24" placeholder="Твой ник"></label><label>Аватар<input id="avatarInput" type="file" accept="image/png,image/jpeg,image/webp,image/gif"></label>
+    <label>Язык<select id="language"><option value="ru">Русский</option><option value="en">English</option></select></label>
+    <label>О себе<textarea id="bio" maxlength="160" rows="3" placeholder="Расскажи немного о себе"></textarea></label>
+    <button class="button primary" id="saveProfile">Сохранить профиль</button><p id="settingsMessage" class="hint" aria-live="polite"></p>
+   </div>
+  </section>
+  <p class="hint">Настройки внешнего вида сохраняются в этом браузере.</p>
+ </div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<script src="redweb.js"></script>
+</body></html>
